@@ -1,0 +1,74 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.container1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.num {
+    font-weight: 700;
+    font-family: "Figtree", sans-serif;
+    font-size: 60px;
+    /* background-image: linear-gradient(to bottom, #00b4ff, #81e376);      */
+    background-image: linear-gradient(to bottom, #0086bb 30%, #2ea730);   
+    color: transparent;
+    background-clip: text;
+    margin-bottom: 0;
+}
+
+.text{
+    background-image: linear-gradient(125deg, #0086bb, #2ea730);
+    color: transparent;
+    background-clip: text;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .container1 {
+        width: calc(33.33% - 20px);
+        height: 350px;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .container1 {
+        width: calc(50% - 20px);
+        height: 350px;
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        gap: 15px;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 350px;
+        font-size: 1.4em;
+    }
+}

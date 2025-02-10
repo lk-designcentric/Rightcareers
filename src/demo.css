@@ -1,0 +1,36 @@
+body{
+    background-color: #fff !important;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.bg-img{
+    background-image: url('../public/right_career_home.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-img h3{
+    justify-self: center;
+}
+
+
+/* Media query */
+
+@media (max-width: 760px) {
+    .bg-img{
+        background-size: auto;
+
+    }
+
+    .navbar-brand img{
+        width: 200px;
+    }
+}

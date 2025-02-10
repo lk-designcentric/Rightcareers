@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: #000;
+}
+
+.over-text{
+    color: #000;
+    max-width: 980px;
+    text-align: center;
+    font-family: 'figtree', sans-serif;
+    font-size: 30px;
+}
+
+.slick-slide {
+    margin: 0 27px;
+}
+
+.card img{
+    height: 150px;
+}
+
+.container-opp-direct{
+    margin-top: 40px !important;
+}
+
+.sbmt-btn{
+    justify-self: center;
+    position: relative;
+    z-index: 1;
+}
+
+.custom-typography{
+    font-size: 50px;
+    color: #fff;
+}
+
+.custom{
+    justify-self: center;
+}
+
+.sect-overview{
+    position: relative;
+}
+
+.sect-overview:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 18px solid #db933b;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+}
+
+.service-sect{
+    background-image: url('./img/service_sect.webp');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.boxes img{
+    background: #eb932f;
+    border-radius: 50%;
+    padding: 10px;
+    width: 132px;
+    height: 132px;
+}
+
+.boxes h3{
+    padding-top: 10px;
+}
+
+.cta-btn button{
+    padding: 10px 22px;
+    background-color: #000;
+    border: none;
+    color: #fff;    
+}
